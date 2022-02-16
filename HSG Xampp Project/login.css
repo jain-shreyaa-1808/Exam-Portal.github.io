@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.form-control
+{
+    border-radius:120px;
+    padding:20px;
+}
+@media only screen and (min-width:400px)
+{
+.row{
+    margin-left:250px;
+}
+.col-lg-4
+{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+img{
+    max-width: 100%;
+    height: 81%;
+    margin-top: 72px;
+}
+}
+/* #signUp
+{
+    margin-left: 50%;
+} */
